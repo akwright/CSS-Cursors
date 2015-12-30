@@ -84,9 +84,9 @@ CSSCurssors.createNode = function(cursorData, end ) {
 		var newCursorNode = document.createElement("div");
 		var browserSupport = ''; 	// Initilize to null
 		if ( end == 1 ) {
-			newCursorNode.setAttribute("class", "grid column small-4 end");
+			newCursorNode.setAttribute("class", "grid column small-6 medium-4 end");
 		} else {
-			newCursorNode.setAttribute("class", "grid column small-4");
+			newCursorNode.setAttribute("class", "grid column small-6 medium-4");
 		}
 
 		if ( cursorData['chrome']  )  {
